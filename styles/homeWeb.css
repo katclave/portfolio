@@ -1,0 +1,55 @@
+#navBar {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  justify-content: space-between;
+  box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 8px .1px rgba(0, 0, 0, 0.4); */
+}
+
+#aboutAndResume {
+  display: flex;
+  flex-direction: row;
+}
+
+#logoAndName {
+  display: flex;
+  flex-direction: row;
+}
+
+#name {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 1vh;
+  color: #494949;
+}
+
+#logo {
+  height: 61vh;
+  width: 54px;
+  margin-right: 28px;
+  margin-left: 44px;
+}
+
+#about {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 2vh;
+  color: #6D6D6D;
+}
+
+#resume {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 2vh;
+  margin-left: 50px;
+  margin-right: 70px;
+  color: #6D6D6D;
+}
+
+#hamburger {
+  visibility: hidden;
+}
